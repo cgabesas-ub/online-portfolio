@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">My Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HOME / HERO -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm Aliyah Jazzlyn Arbuyes</h1>
+      <p>I'm a <span id="typed"></span></p>
+      <a href="#projects" class="btn">See My Work</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="images/profile.jpg" alt="Profile" class="profile-pic" />
+      <p>
+        As a college Computer Engineering student, I am currently learning more
+        about electronics and computer systems, focusing on understanding circuit
+        fundamentals like resistors, capacitors, and transistors, while also
+        developing my programming skills in languages such as C, C++, Java, and
+        Python. At the same time, I am exploring tools like Arduino and ESP32
+        for computer architecture, and building small projects that combine
+        hardware and software to strengthen my practical knowledge and technical
+        skills in the field of technology.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skill-grid">
+      <div class="skill-card">C / C++</div>
+      <div class="skill-card">Python</div>
+      <div class="skill-card">Java</div>
+      <div class="skill-card">Arduino</div>
+      <div class="skill-card">ESP32</div>
+      <div class="skill-card">HTML / CSS</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-card">
+      <div class="project-header">
+        <img src="images/sumobot.jpg" alt="" class="project-icon" />
+        <h3>MINKSZZ Sumobot</h3>
+      </div>
+      <div class="project-videos">
+        <video src="images/sumobot1.mp4" controls></video>
+        <video src="images/sumobot2.mp4" controls></video>
+        <video src="images/sumobot3.mp4" controls></video>
+      </div>
+      <p>Our first robot together with Sara Jane Sayson and Dria Mae Penocho.</p>
+    </div>
+
+    <div class="project-card">
+      <div class="project-header">
+        <img src="images/garbot.jpg" alt="" class="project-icon" />
+        <h3>Garbot Trash Collector</h3>
+      </div>
+      <div class="project-videos">
+        <video src="images/garbot.mp4" controls></video>
+      </div>
+      <p>Trash collector robot together with Christian Gabriel and team.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: arishcatada2007@gmail.com</p>
+  </section>
+
+  <footer>© 2026 Aliyah Jazzlyn Arbuyes. All rights reserved.</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
