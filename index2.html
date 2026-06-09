@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Christian Gabriel Besas — Computer Engineering Student Portfolio" />
+  <title>Christian Gabriel Besas | Computer Engineering Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">CGB<span class="logo-dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-container">
+      <div class="hero-tag">// Computer Engineering Student</div>
+      <h1 class="hero-title">
+        Hi, I'm <span class="accent">Christian Gabriel Besas</span>
+      </h1>
+      <p class="hero-subtitle">
+        I build <span id="typed" class="typed-text"></span><span class="cursor">|</span>
+      </p>
+      <p class="hero-description">
+        Aspiring engineer passionate about embedded systems, electronics, and clean software.
+        Currently learning to bridge the gap between hardware and code.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects →</a>
+        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">01</span>
+        <h2 class="section-title">About Me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-image-wrap">
+          <div class="about-image-frame">
+            <img src="profile.jpg" alt="Christian Gabriel Besas" class="about-image" onerror="this.src='https://via.placeholder.com/300x300/0ea5e9/ffffff?text=CGB'" />
+          </div>
+        </div>
+        <div class="about-text">
+          <h3>Computer Engineering Student</h3>
+          <p>
+            I'm a Computer Engineering student with a strong interest in both
+            <strong>electronics</strong> and <strong>software development</strong>.
+            My current focus is understanding circuit fundamentals — resistors,
+            capacitors, transistors — and the architecture of computer systems.
+          </p>
+          <p>
+            On the software side, I'm sharpening my skills in
+            <strong>C, C++, Java, and Python</strong>, while exploring embedded
+            platforms like <strong>Arduino and ESP32</strong>. I enjoy building
+            small projects that combine hardware and software to solve real problems.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <div class="stat-num">3+</div>
+              <div class="stat-label">Projects Built</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">5+</div>
+              <div class="stat-label">Languages Learned</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">∞</div>
+              <div class="stat-label">Curiosity</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">02</span>
+        <h2 class="section-title">Skills & Tools</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>💻 Programming</h3>
+          <div class="skill-list">
+            <span class="skill-chip">C</span>
+            <span class="skill-chip">C++</span>
+            <span class="skill-chip">Java</span>
+            <span class="skill-chip">Python</span>
+            <span class="skill-chip">JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>⚡ Electronics</h3>
+          <div class="skill-list">
+            <span class="skill-chip">Circuit Design</span>
+            <span class="skill-chip">Soldering</span>
+            <span class="skill-chip">Multimeter</span>
+            <span class="skill-chip">Breadboarding</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>🔧 Embedded</h3>
+          <div class="skill-list">
+            <span class="skill-chip">Arduino</span>
+            <span class="skill-chip">ESP32</span>
+            <span class="skill-chip">Sensors</span>
+            <span class="skill-chip">Motor Control</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>🛠 Tools</h3>
+          <div class="skill-list">
+            <span class="skill-chip">Git / GitHub</span>
+            <span class="skill-chip">VS Code</span>
+            <span class="skill-chip">Arduino IDE</span>
+            <span class="skill-chip">Proteus</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">03</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="project-list">
+
+        <!-- PROJECT 1 -->
+        <article class="project-card">
+          <div class="project-meta">
+            <span class="project-label">Robotics</span>
+            <span class="project-year">2025</span>
+          </div>
+          <h3 class="project-title">TigididingBot</h3>
+          <p class="project-description">
+            A competitive sumobot built with my teammates
+            <strong>Jeremy Galinato</strong> and <strong>Kevin Macabenta</strong>.
+            Programmed for autonomous opponent detection and pushing strategy
+            using IR and ultrasonic sensors on an Arduino platform.
+          </p>
+          <div class="project-tags">
+            <span>Arduino</span>
+            <span>C++</span>
+            <span>Sensors</span>
+            <span>Teamwork</span>
+          </div>
+          <div class="project-media">
+            <video src="images/sumobot.mp4" controls preload="metadata" onerror="this.style.display='none'"></video>
+            <img src="images/sumobot1.jpg" alt="TigididingBot" onerror="this.style.display='none'" />
+            <img src="images/sumobot2.jpg" alt="TigididingBot in action" onerror="this.style.display='none'" />
+            <img src="images/sumobot3.jpg" alt="TigididingBot team" onerror="this.style.display='none'" />
+          </div>
+        </article>
+
+        <!-- PROJECT 2 -->
+        <article class="project-card">
+          <div class="project-meta">
+            <span class="project-label">IoT</span>
+            <span class="project-year">2025</span>
+          </div>
+          <h3 class="project-title">Garbot Trash Collector</h3>
+          <p class="project-description">
+            An autonomous trash collector robot developed with my teammates
+            <strong>Aliyah Arbuyes</strong> and <strong>Joseph Cantilla</strong>.
+            Combines object detection, motor control, and smart navigation to
+            assist with waste collection in small environments.
+          </p>
+          <div class="project-tags">
+            <span>ESP32</span>
+            <span>Python</span>
+            <span>Motors</span>
+            <span>Automation</span>
+          </div>
+          <div class="project-media">
+            <video src="images/garbot.mp4" controls preload="metadata" onerror="this.style.display='none'"></video>
+            <img src="images/garbot1.jpg" alt="Garbot Trash Collector" onerror="this.style.display='none'" />
+            <img src="images/garbot2.jpg" alt="Garbot prototype" onerror="this.style.display='none'" />
+            <img src="images/garbot3.jpg" alt="Garbot team" onerror="this.style.display='none'" />
+          </div>
+        </article>
+
+        <!-- PROJECT 3 -->
+        <article class="project-card">
+          <div class="project-meta">
+            <span class="project-label">Web App</span>
+            <span class="project-year">2026</span>
+          </div>
+          <h3 class="project-title">JARZ Store — Price Checker</h3>
+          <p class="project-description">
+            A full-stack web application for a neighborhood sari-sari store,
+            built together with <strong>Aliyah Arbuyes</strong> and
+            <strong>Joseph Cantilla</strong>. Features product search, online
+            ordering, QR-code pickup confirmation, and an admin/bagger management
+            panel. Powered by Supabase.
+          </p>
+          <div class="project-tags">
+            <span>JavaScript</span>
+            <span>HTML/CSS</span>
+            <span>Supabase</span>
+            <span>QR Code</span>
+          </div>
+          <div class="project-media">
+            <video src="images/jarz.mp4" controls preload="metadata" onerror="this.style.display='none'"></video>
+            <img src="images/jarz1.jpg" alt="JARZ Store homepage" onerror="this.style.display='none'" />
+            <img src="images/jarz2.jpg" alt="JARZ Store products" onerror="this.style.display='none'" />
+            <img src="images/jarz3.jpg" alt="JARZ Store admin panel" onerror="this.style.display='none'" />
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="container contact-container">
+      <div class="section-header centered">
+        <span class="section-number">04</span>
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="section-line"></div>
+      </div>
+      <p class="contact-lead">
+        Open to collaborations, internships, or just a chat about tech.
+        Drop me a message — I'd love to hear from you.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:christianbesas@example.com" class="contact-card">
+          <div class="contact-icon">✉️</div>
+          <div class="contact-label">Email</div>
+          <div class="contact-value">christianbesas@example.com</div>
+        </a>
+        <a href="https://github.com/cgabesas-ub" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-icon">💻</div>
+          <div class="contact-label">GitHub</div>
+          <div class="contact-value">@cgabesas-ub</div>
+        </a>
+        <a href="#" class="contact-card">
+          <div class="contact-icon">💼</div>
+          <div class="contact-label">LinkedIn</div>
+          <div class="contact-value">Coming soon</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <span class="logo">CGB<span class="logo-dot">.</span></span>
+        <p>Built with HTML, CSS & JavaScript</p>
+      </div>
+      <div class="footer-copyright">
+        © 2026 Christian Gabriel Besas. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script2.js"></script>
+</body>
+</html>
